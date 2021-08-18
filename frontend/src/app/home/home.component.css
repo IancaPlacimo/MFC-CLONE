@@ -3,3 +3,52 @@
     width: 100vw;
     height: 100vh;
 }
+
+
+.cont2{
+    display: flex; 
+    width: 100vw;
+  flex-wrap: wrap;
+}
+
+.card{
+    width: 50vw;  
+    height: 48vh;
+    border: 1px solid black;
+}
+
+.card:hover{
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        transition: 0.5s ease-in;
+        border: 10px solid white;
+}
+
+.card1:hover{
+    -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+       transition: 0.5s ease-in;
+
+}
+
+.img1:hover{
+    border: 2px solid white;
+}
+
+.img{
+    width: 50vw;
+    height: 48vh;
+}
+
+.card1{
+    width: 20vw;  
+    height: 10vh;
+   
+}
+
+.img1{
+    width: 20vw;
+    height: 20vh;
+}
