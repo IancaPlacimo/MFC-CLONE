@@ -9,12 +9,14 @@
     display: flex; 
     width: 100vw;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card{
-    width: 50vw;  
+    width: 49vw;  
     height: 48vh;
     border: 1px solid black;
+    height: 48vh;
 }
 
 .card:hover{
@@ -38,13 +40,15 @@
 }
 
 .img{
-    width: 50vw;
+    width: 49vw;
     height: 48vh;
+ 
 }
 
 .card1{
     width: 20vw;  
     height: 10vh;
+   
    
 }
 
