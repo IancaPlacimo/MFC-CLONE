@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faStar, faArrowLeft, faArrowRight, faArrowsAltH } from '@fortawesome/free-solid-svg-icons';
+import { faStar, faArrowLeft, faArrowRight, faArrowsAltH, faSquare, faPlay } from '@fortawesome/free-solid-svg-icons';
+
 
 @Component({
   selector: 'app-pagina1',
@@ -12,6 +13,8 @@ export class Pagina1Component implements OnInit {
   faArrowLef= faArrowLeft;
   faArrowRight= faArrowRight;
   faArrowsAltH = faArrowsAltH ;
+  faSquare = faSquare;
+  faPlay = faPlay;
 
 
   constructor() { }

@@ -1,5 +1,5 @@
 
-<div class="cont">
+<div class="container-principal">
     <div class="div-imagem">
         <img class="card-img-top img" src="./assets/img/titans1.jpg" alt="titans">
     </div>
@@ -17,6 +17,14 @@
             <div class="textos">
                 <p class="card-text">tt10430813</p>
                 <p class="card-text">Também conhecido como: Titãs</p>
+            </div>
+            <div class="tipo">
+                <button type="button" class="btn btn-outline-warning">Ação</button>
+                <button type="button" class="btn btn-outline-warning">Aventura</button>
+                <button type="button" class="btn btn-outline-warning">Crime</button> 
+                <button type="button" class="btn btn-outline-warning">Drama</button> 
+                <button type="button" class="btn btn-outline-warning">Fantasia</button> 
+                <button type="button" class="btn btn-outline-warning">Sci-fi</button>   
             </div>
 
 
@@ -53,8 +61,7 @@
             <div class="botoes">
                 <button type="button" class="btn btn-secondary">REPRODUZIR</button>
                 <button type="button" class="btn btn-secondary">
-                    <fa-icon class="fa-1x" [icon]="faArrowsAltH"></fa-icon>
-                   
+                    <fa-icon class="fa-1x" [icon]="faArrowsAltH"></fa-icon>    
                 </button>
                 <button type="button" class="btn btn-secondary">CACHE</button>
                 <button type="button" class="btn btn-secondary">SIMILARES</button>
@@ -62,7 +69,37 @@
                 <button type="button" class="btn btn-secondary">AVALIAR</button>
             </div>
 
+            
+
         </div>
     </div>
 
+        <div class="temp">
+            <div class="buttons">
+            <p>Temporadas:</p>
+           <button type="button" class="btn btn-secondary">
+            <fa-icon  [icon]="faPlay"></fa-icon>
+            3°</button>
+           <button type="button" class="btn btn-secondary">
+            <fa-icon [icon]="faPlay"></fa-icon>   
+            2°</button>
+           <button type="button" class="btn btn-secondary">
+            <fa-icon  [icon]="faPlay"></fa-icon>   
+            1°</button>
+            </div>
+
+            <div class="conect">
+                <p>
+                    <fa-icon class="quad1" [icon]="faSquare"></fa-icon> 
+                    Conectado</p>
+                <p>
+                    <fa-icon class="quad2" [icon]="faSquare"></fa-icon> 
+                    Não Conectado</p>
+                <p>
+                    <fa-icon class="quad3" [icon]="faSquare"></fa-icon> 
+                    Em Breve</p>
+            </div>
+        </div>
+
 </div>
+
