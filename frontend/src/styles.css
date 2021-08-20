@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root{
+    --cor-fundo: rgb(56, 56, 59);
+    --cor-footer: rgb(78, 76, 76);
+}
+
+
