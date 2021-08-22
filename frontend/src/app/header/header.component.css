@@ -51,8 +51,8 @@
 
 
 .menu:active {
-    border: 1px solid rgb(211, 89, 32);
-    color: rgb(211, 89, 32);
+    border: 1px solid var(--laranja-padrao);
+    color: var(--laranja-padrao);
     border-radius: 20px;
     padding: 5px;
   }
@@ -71,8 +71,8 @@
 }
 
 .btn1:hover{
-    border: 1px solid rgb(211, 89, 32);
-    color: rgb(211, 89, 32);
+    border: 1px solid var(--laranja-padrao);
+    color: var(--laranja-padrao);
     border-radius: 20px;
     padding: 5px;
 }

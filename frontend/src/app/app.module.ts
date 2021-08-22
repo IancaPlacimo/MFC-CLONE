@@ -6,7 +6,10 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { Pagina1Component } from './pagina1/pagina1.component';
+import { Pagina1Component } from './filmes/pagina1/pagina1.component';
+import { F9Component } from './filmes/f9/f9.component';
+import { MaisvistosComponent } from './filmes/maisvistos/maisvistos.component';
+
 
 
 
@@ -16,7 +19,9 @@ import { Pagina1Component } from './pagina1/pagina1.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    Pagina1Component
+    Pagina1Component,
+    F9Component,
+    MaisvistosComponent
   
   ],
   imports: [
