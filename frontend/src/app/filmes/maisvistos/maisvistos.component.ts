@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faWifi } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-maisvistos',
@@ -6,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./maisvistos.component.css']
 })
 export class MaisvistosComponent implements OnInit {
+
+  faWifi = faWifi;
 
   constructor() { }
 

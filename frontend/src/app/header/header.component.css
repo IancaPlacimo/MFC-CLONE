@@ -28,12 +28,17 @@
 }
 
 .logo{
-    width: 3vw;
-    margin-left: 5px;
+    width: 5vw;
+    margin-left: 15px;
+   
+}
+
+.wifi{
+    color: white;
 }
 
 .nav{
-    margin-left: 900px;
+    margin-left: 800px;
 }
 
 .botao1{
@@ -119,4 +124,5 @@ display: flex;
 
 
 }
+
 
