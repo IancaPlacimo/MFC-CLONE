@@ -1,13 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { faStar, faArrowLeft, faArrowRight, faArrowsAltH, faSquare, faPlay, faWifi } from '@fortawesome/free-solid-svg-icons';
 
-
 @Component({
-  selector: 'app-pagina1',
-  templateUrl: './pagina1.component.html',
-  styleUrls: ['./pagina1.component.css']
+  selector: 'app-barracadobeijo',
+  templateUrl: './barracadobeijo.component.html',
+  styleUrls: ['./barracadobeijo.component.css']
 })
-export class Pagina1Component implements OnInit {
+export class BarracadobeijoComponent implements OnInit {
 
   faStar= faStar;
   faArrowLef= faArrowLeft;
@@ -16,7 +15,6 @@ export class Pagina1Component implements OnInit {
   faSquare = faSquare;
   faPlay = faPlay;
   faWifi=faWifi;
-
 
   constructor() { }
 

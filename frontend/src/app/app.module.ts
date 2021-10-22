@@ -9,6 +9,13 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { Pagina1Component } from './filmes/pagina1/pagina1.component';
 import { F9Component } from './filmes/f9/f9.component';
 import { MaisvistosComponent } from './filmes/maisvistos/maisvistos.component';
+import { SaoComponent } from './filmes/sao/sao.component';
+import { SpacejamComponent } from './filmes/spacejam/spacejam.component';
+import { BarracadobeijoComponent } from './filmes/barracadobeijo/barracadobeijo.component';
+import { SuicidesquadComponent } from './filmes/suicidesquad/suicidesquad.component';
+import { EstreiasComponent } from './filmes/estreias/estreias.component';
+
+
 
 
 
@@ -21,7 +28,12 @@ import { MaisvistosComponent } from './filmes/maisvistos/maisvistos.component';
     HeaderComponent,
     Pagina1Component,
     F9Component,
-    MaisvistosComponent
+    MaisvistosComponent,
+    SaoComponent,
+    SpacejamComponent,
+    BarracadobeijoComponent,
+    SuicidesquadComponent,
+    EstreiasComponent
   
   ],
   imports: [

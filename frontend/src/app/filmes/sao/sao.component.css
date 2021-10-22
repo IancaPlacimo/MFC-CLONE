@@ -96,6 +96,7 @@ color: yellow;
 }
 
 .temp{
+  
     position: fixed;
     left: 0;
     bottom: 0;
@@ -115,6 +116,7 @@ color: yellow;
     margin-left: 50px;
     height: 40px;
     font-weight: bold;
+
 }
 
 .buttons > .btn {
@@ -158,7 +160,6 @@ font-weight: bold;
 }
 
 
-
 .header{
     display: flex;
     align-items: center;
@@ -180,13 +181,3 @@ font-weight: bold;
     margin-left: 10px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-

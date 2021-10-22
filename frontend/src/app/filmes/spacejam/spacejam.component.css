@@ -114,23 +114,10 @@ color: yellow;
     margin-top: 20px;
     margin-left: 50px;
     height: 40px;
-    font-weight: bold;
+    font-size: larger;
+   
 }
 
-.buttons > .btn {
-border: 3px solid white;
-background: rgb(40, 206, 11);
-color: white;
-font-weight: bold;
-}
-
-.buttons > .btn:hover{
-    background: rgb(15, 61, 7);
-
-}
-.buttons > p {
-    margin-right: 10px;
-}
 
 .conect{
     display: flex;
@@ -180,13 +167,3 @@ font-weight: bold;
     margin-left: 10px;
     color: white;
 }
-
-
-
-
-
-
-
-
-
-

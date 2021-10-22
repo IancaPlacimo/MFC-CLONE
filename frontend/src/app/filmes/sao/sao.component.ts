@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { faArrowLeft, faArrowRight, faArrowsAltH, faPlay, faSquare, faStar, faWifi } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-f9',
-  templateUrl: './f9.component.html',
-  styleUrls: ['./f9.component.css']
+  selector: 'app-sao',
+  templateUrl: './sao.component.html',
+  styleUrls: ['./sao.component.css']
 })
-export class F9Component implements OnInit {
+export class SaoComponent implements OnInit {
 
   faStar= faStar;
   faArrowLef= faArrowLeft;

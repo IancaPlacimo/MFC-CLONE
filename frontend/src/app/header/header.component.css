@@ -54,14 +54,6 @@
     list-style: none;
 }
 
-
-.menu:active {
-    border: 1px solid var(--laranja-padrao);
-    color: var(--laranja-padrao);
-    border-radius: 20px;
-    padding: 5px;
-  }
-
 .container{
     display: flex;
     align-items: center;
@@ -98,7 +90,7 @@ position: fixed;
 
 .div-img-footer{
     display: flex;
-    width: 40%;  
+    width: 60%;  
     height: 8vh;
     background: rgb(78, 76, 76);
     margin-right: 370px;
@@ -108,7 +100,7 @@ position: fixed;
 
 .img-footer{
 
-    width: 100%;  
+    width: 40vw;  
     height: 9vh;
     border: 1px solid black;
 }
